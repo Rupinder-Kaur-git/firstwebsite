@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "firstwebsite"
+  navbar:  
+    items:
+      - href: index.qmd
+        text: "Home"
+      - href: about.qmd
+        text: "About"
+format:
+  html:
+    theme: cosmo
+    fontsize: 20px
+    css: styles.css
+    toc: true
+
+
+
